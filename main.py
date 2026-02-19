@@ -28,6 +28,7 @@ def main():
             print("----------- Word Count ----------")
             print(f"Found {total_words} total words")
             print("--------- Character Count -------")
+            print("---------Fedora------------------")
 
             for item in sorted_list:
                 print(f"{item['char']}: {item['num']}")
